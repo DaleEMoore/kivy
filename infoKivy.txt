@@ -6,7 +6,7 @@ https://github.com/DaleEMoore/kivy
 To Do
 Get kivy running and make Hi World app for Android and iOS and Linux and MAC and Windows.
 
-I wanna use Kivy for Dr. David Edwards psychological profile interviews and reporting.
+I wanna use Kivy for Dr. David Edwards psychological profile interviews and reporting (psyIn).
 Learn Kivy.
 Sample key program.
 Demonstrate for David.
@@ -15,6 +15,21 @@ Learn Kivy.
     https://github.com/inclement/kivycrashcourse
     https://www.youtube.com/playlist?list=SPdNh1e1kmiPP4YApJm8ENK2yMlwF1_edq
     http://inclem.net/2014/01/09/kivy-crash-course/1_making-a-simple-app/
+
+kcc1.py is running at DaleHome.QnD and MW.Mercury, yea!
+
+What are the key technologies of psyIn?
+Runs on Android.
+DB: Question ID, Type of Question, Question, Possible answers, synchronized.
+Question database, convert to kivy, test the generated code.
+Push to Windows, Linux, MAC, iOS, Android.
+
+Categorize questions and control program flow.
+
+Where are my Dr. David Edwards example reports?
+Caleb wants to call it the Psychological profiler.
+
+
 
 
 
