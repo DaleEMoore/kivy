@@ -1,8 +1,21 @@
 Overview
+https://github.com/DaleEMoore/kivy
+
 
 
 To Do
 Get kivy running and make Hi World app for Android and iOS and Linux and MAC and Windows.
+
+I wanna use Kivy for Dr. David Edwards psychological profile interviews and reporting.
+Learn Kivy.
+Sample key program.
+Demonstrate for David.
+
+Learn Kivy.
+    https://github.com/inclement/kivycrashcourse
+    https://www.youtube.com/playlist?list=SPdNh1e1kmiPP4YApJm8ENK2yMlwF1_edq
+    http://inclem.net/2014/01/09/kivy-crash-course/1_making-a-simple-app/
+
 
 
 
@@ -2596,3 +2609,16 @@ assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/t1
 [39m[0m[31m# Command failed: /usr/bin/python2.7 build.py --name 'Kivy Crash Course 2' --version 1.0 --package org.test.kivycrash2 --private /home/dalem/PycharmProjects/kivy/.buildozer/android/app --sdk 14 --minsdk 8 --orientation sensor --window debug[39m[0m
 
 
+Thu 2 Mar 17 10 AM CST
+I wanna use Kivy for Dr. David Edwards psychological profile interviews and reporting.
+Learn Kivy.
+Sample key program.
+Demonstrate for David.
+
+Learn Kivy.
+https://github.com/inclement/kivycrashcourse
+https://www.youtube.com/playlist?list=SPdNh1e1kmiPP4YApJm8ENK2yMlwF1_edq
+http://inclem.net/2014/01/09/kivy-crash-course/1_making-a-simple-app/
+
+Delete https://github.com/DaleEMoore/kivy_learn since I already had
+       https://github.com/DaleEMoore/kivy
