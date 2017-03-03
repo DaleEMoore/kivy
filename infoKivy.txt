@@ -4,7 +4,84 @@ https://github.com/DaleEMoore/kivy
 
 
 To Do
-Get kivy running and make Hi World app for Android and iOS and Linux and MAC and Windows.
+buildozer failing...
+    buildozer android debug
+    ...
+    assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/t1
+    Traceback (most recent call last):
+      File "build.py", line 517, in <module>
+        make_package(args)
+      File "build.py", line 365, in make_package
+        subprocess.check_call([ANT, arg])
+      File "/usr/lib/python2.7/subprocess.py", line 541, in check_call
+        raise CalledProcessError(retcode, cmd)
+    subprocess.CalledProcessError: Command '['ant', 'debug']' returned non-zero exit status 1
+    # Command failed: python build.py --name 'Kivy Crash Course 2' --version 1.0 --package org.test.kivycrash2 --sdk 19 --minsdk 9 --private /home/dalem/PycharmProjects/kivy/.buildozer/android/app --orientation sensor --window debug
+    #
+    # Buildozer failed to execute the last command
+    # The error might be hidden in the log above this error
+    # Please read the full log, and search for it before
+    # raising an issue with buildozer itself.
+    # In case of a bug report, please add a full log with log_level = 2
+There is no main.py, that's the problem? Nope, built main.py and it's still failing.
+    buildozer android_new debug
+    ...
+    # Run 'python -m pythonforandroid.toolchain --color=always --storage-dir=/home/dalem/PycharmProjects/kivy/.buildozer/android/platform/build create --dist_name=kivycrash2 --bootstrap=sdl2 --requirements=kivy --arch armeabi-v7a --copy-libs'
+    # Cwd /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android-master
+    ERROR: The colorama Python module could not be found, please install version 0.3.3 or higher
+    ERROR: The appdirs Python module could not be found, please install it.
+    ERROR: The sh Python module could not be found, please install version 1.10 or higher
+    ERROR: The jinja2 Python module could not be found, please install it.
+    python-for-android is exiting due to the errors above.
+    # Command failed: python -m pythonforandroid.toolchain --color=always --storage-dir=/home/dalem/PycharmProjects/kivy/.buildozer/android/platform/build create --dist_name=kivycrash2 --bootstrap=sdl2 --requirements=kivy --arch armeabi-v7a --copy-libs
+    #
+    # Buildozer failed to execute the last command
+    # The error might be hidden in the log above this error
+    # Please read the full log, and search for it before
+    # raising an issue with buildozer itself.
+    # In case of a bug report, please add a full log with log_level = 2
+
+dalem@Mercury2:~/PycharmProjects/kivy⟫ pip install colorama appdirs sh jinja2
+    Nothing done, nothing installed, everything already OK.
+
+dalem@Mercury2:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
+    Look at log file
+It looks like the javac version is wrong.
+    -compile:
+        [javac] Compiling 37 source files to /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/bin/classes
+        [javac] error: Source option 1.5 is no longer supported. Use 1.6 or later.
+        [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+    dalem@Mercury2:~/PycharmProjects/kivy⟫ update-alternatives --config javac
+    There are 3 choices for the alternative javac (providing /usr/bin/javac).
+
+      Selection    Path                                         Priority   Status
+    ------------------------------------------------------------
+      0            /usr/lib/jvm/java-9-oracle/bin/javac          1091      auto mode
+      1            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac   1081      manual mode
+      2            /usr/lib/jvm/java-8-oracle/bin/javac          1081      manual mode
+    * 3            /usr/lib/jvm/java-9-oracle/bin/javac          1091      manual mode
+
+    Change it to
+    2            /usr/lib/jvm/java-8-oracle/bin/javac          1081      manual mode
+    then re-test.
+
+    javac -version
+    1.8.?...
+    Same error. Get version 1.6...
+
+Still nada....
+    Get a 1.5 or 1.6 version of javac?
+    http://stackoverflow.com/questions/8970920/maven-javac-source-release-1-6-requires-target-release-1-6
+    http://fantom.org/forum/topic/1765
+    http://stackoverflow.com/questions/1927594/is-is-possible-to-build-java-code-using-jdk-1-6-to-run-on-jre-1-5
+
+
+
+
+Get kivy running and make Hi World app for Linux.
+    Running on DaleHome.QnD, MW.Mercury.
+
+Make Android and iOS and MAC and Windows versions of the Hi World app.
 
 I wanna use Kivy for Dr. David Edwards psychological profile interviews and reporting (psyIn).
 Learn Kivy.
