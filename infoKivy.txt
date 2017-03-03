@@ -16,7 +16,27 @@ Learn Kivy.
     https://www.youtube.com/playlist?list=SPdNh1e1kmiPP4YApJm8ENK2yMlwF1_edq
     http://inclem.net/2014/01/09/kivy-crash-course/1_making-a-simple-app/
 
+That's called the Kivy Crash Course co kcc.
 
+# Cwd /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android-master
+    ERROR: The colorama Python module could not be found, please install version 0.3.3 or higher
+    ERROR: The appdirs Python module could not be found, please install it.
+    ERROR: The sh Python module could not be found, please install version 1.10 or higher
+    ERROR: The jinja2 Python module could not be found, please install it.
+    python-for-android is exiting due to the errors above.
+    # Command failed: python -m pythonforandroid.toolchain
+    --color=always --storage-dir=/home/dalem/PycharmProjects/kivy/.buildozer/android/platform/build create
+    --dist_name=kivycrash2 --bootstrap=sdl2 --requirements=kivy --arch armeabi-v7a --copy-libs
+
+    sudo pip install -U colorama
+    sudo pip install -U appdirs
+    sudo pip install -U sh
+    sudo pip install -U jinja2
+
+    sudo pip install -U colorama appdirs sh jinja2
+
+    I'm having lots of problems with execution of buildozer and I think I might have mixed up my python
+    versions. Perhaps I should make a virgin Ubuntu VM and start over.
 
 
 Logs
@@ -2622,3 +2642,6 @@ http://inclem.net/2014/01/09/kivy-crash-course/1_making-a-simple-app/
 
 Delete https://github.com/DaleEMoore/kivy_learn since I already had
        https://github.com/DaleEMoore/kivy
+
+Kivy Crash Course (KCC) first simple application (app)
+
