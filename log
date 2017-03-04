@@ -1,0 +1,638 @@
+# Check configuration tokens
+# Ensure build layout
+# Check configuration tokens
+# Preparing build
+# Check requirements for android
+# Run 'dpkg --version'
+# Cwd None
+Debian 'dpkg' package management program version 1.18.4 (amd64).
+This is free software; see the GNU General Public License version 2 or
+later for copying conditions. There is NO warranty.
+# Search for Git (git)
+#  -> found at /usr/bin/git
+# Search for Cython (cython)
+#  -> found at /usr/local/bin/cython
+# Search for Java compiler (javac)
+#  -> found at /usr/lib/jvm/java-8-oracle/bin/javac
+# Search for Java keytool (keytool)
+#  -> found at /usr/lib/jvm/java-9-oracle/bin/keytool
+# Install platform
+# Apache ANT found at /home/dalem/.buildozer/android/platform/apache-ant-1.9.4
+# Android SDK found at /home/dalem/.buildozer/android/platform/android-sdk-20
+# Android NDK found at /home/dalem/.buildozer/android/platform/android-ndk-r9c
+# Check application requirements
+# Run './distribute.sh -l'
+# Cwd /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android
+Available modules: android apsw audiostream bidi boost cherrypy c_igraph click cprotobuf cymunk django docutils ecdsa enum34 evdev ffmpeg ffmpeg2 ffpyplayer ffpyplayer_tito flask freetype gevent greenlet harfbuzz hostpython igraph itsdangerous jinja2 jpeg kivent_core kivent_cymunk kivy leveldb libevent libpq libsodium libswift libtorrent libxml2 libxslt libyaml lxml m2crypto markupsafe midistream msgpack mysql_connector netifaces numpy opencv openssl paramiko pil plyer plyvel png polygon protobuf psutil psycopg2 pyasn1 pycrypto pygame pyjnius pylibpd pyopenssl pyparsing pyqrcode python pyyaml sdl setuptools six sqlalchemy sqlite3 storm swift thrift twisted txws werkzeug wokkel zeroconf zope
+# Application requirements already installed, pass
+# Check garden requirements
+# Compile platform
+# Run './distribute.sh -l'
+# Cwd /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android
+Available modules: android apsw audiostream bidi boost cherrypy c_igraph click cprotobuf cymunk django docutils ecdsa enum34 evdev ffmpeg ffmpeg2 ffpyplayer ffpyplayer_tito flask freetype gevent greenlet harfbuzz hostpython igraph itsdangerous jinja2 jpeg kivent_core kivent_cymunk kivy leveldb libevent libpq libsodium libswift libtorrent libxml2 libxslt libyaml lxml m2crypto markupsafe midistream msgpack mysql_connector netifaces numpy opencv openssl paramiko pil plyer plyvel png polygon protobuf psutil psycopg2 pyasn1 pycrypto pygame pyjnius pylibpd pyopenssl pyparsing pyqrcode python pyyaml sdl setuptools six sqlalchemy sqlite3 storm swift thrift twisted txws werkzeug wokkel zeroconf zope
+# Distribution already compiled, pass.
+# Build the application #16
+# Copy application source from /home/dalem/PycharmProjects/kivy
+# Create directory /home/dalem/PycharmProjects/kivy/.buildozer/android/app
+# Copy /home/dalem/PycharmProjects/kivy/log
+# Copy /home/dalem/PycharmProjects/kivy/kcc1.py
+# Copy /home/dalem/PycharmProjects/kivy/main.py
+# Package the application
+# project.properties updated
+# Run "python build.py --name 'Kivy Crash Course 2' --version 1.0 --package org.test.kivycrash2 --sdk 19 --minsdk 9 --private /home/dalem/PycharmProjects/kivy/.buildozer/android/app --orientation sensor --window debug"
+# Cwd /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2
+Updated project.properties
+Updated local.properties
+----------
+build.xml: Failed to find version-tag string. File must be updated.
+In order to not erase potential customizations, the file will not be automatically regenerated.
+If no changes have been made to the file, delete it manually and run the command again.
+If you have made customizations to the build process, the file must be manually updated.
+It is recommended to:
+	* Copy current file to a safe location.
+	* Delete original file.
+	* Run command again to generate a new file.
+	* Port customizations to the new file, by looking at the new rules file
+	  located at <SDK>/tools/ant/build.xml
+	* Update file to contain
+	      version-tag: custom
+	  to prevent file from being rewritten automatically by the SDK tools.
+----------
+Updated file ./proguard-project.txt
+It seems that there are sub-projects. If you want to update them
+please use the --subprojects parameter.
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/include ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/include/python2.7 ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7 ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/bsddb ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/bsddb/test ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/compiler ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/config ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/ctypes ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/ctypes/macholib ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/ctypes/test ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/distutils ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/distutils/command ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/email ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/email/mime ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/encodings ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/hotshot ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/importlib ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/json ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/lib-dynload ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/logging ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/multiprocessing ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/multiprocessing/dummy ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/plat-linux4 ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/pydoc_data ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/jnius ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/adapters ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/audio ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/camera ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/gl ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/image ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/spelling ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/text ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/video ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/window ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/fonts ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/glsl ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/images ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/keyboards ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/logo ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/deps ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/effects ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/ext ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/extras ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/garden ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/postproc ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/providers ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/gstplayer ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/osc ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/vidcore_lite ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/network ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/storage ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/threads ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/sqlite3 ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/unittest ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/wsgiref ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/xml ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/xml/dom ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/xml/etree ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/xml/parsers ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/xml/sax ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/app ...
+Listing /home/dalem/PycharmProjects/kivy/.buildozer/android/app/_applibs ...
+Compiling /home/dalem/PycharmProjects/kivy/.buildozer/android/app/kcc1.py ...
+Compiling /home/dalem/PycharmProjects/kivy/.buildozer/android/app/main.py ...
+Compiling /home/dalem/PycharmProjects/kivy/.buildozer/android/app/sitecustomize.py ...
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/libpymodules.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/include/python2.7/pyconfig.h
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python27.zip
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/config/Setup
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/config/config.c.in
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/config/install-sh
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/config/Setup.config
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/config/Setup.local
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/config/Makefile
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/config/config.c
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/lib-dynload/future_builtins.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/lib-dynload/_io.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/lib-dynload/unicodedata.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/lib-dynload/syslog.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/lib-dynload/_ctypes.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/README
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/six.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/jnius_config.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/jnius/signatures.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/jnius/jnius.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/jnius/reflect.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/jnius/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android/billing.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android/_android.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android/_android_sound.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android/mixer.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android/_android_billing.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android/runnable.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android/activity.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/android/broadcast.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/event.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/pygame_icon.tiff
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/overlay.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/surflock.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/rwobject.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/locals.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/fastevent.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/joystick.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/midi.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/bufferproxy.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/rect.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/time.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/sysfont.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/pkgdata.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/image.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/mouse.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/surface.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/pixelarray.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/display.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/sprite.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/key.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/transform.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/cursors.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/base.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/gfxdraw.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/draw.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/pygame.ico
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/mask.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/_arraysurfarray.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/constants.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/compat.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/version.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/color.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/colordict.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/font.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/imageext.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/pygame/threads/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/_event.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/cache.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/_event.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/logger.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/loader.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/weakproxy.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/parser.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/setupconfig.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/gesture.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/properties.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/factory_registers.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lang.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/metrics.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/resources.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/app.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/config.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/geometry.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/multistroke.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/context.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/vector.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/properties.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/base.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/support.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/weakmethod.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/clock.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/event.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/animation.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/interactive.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/atlas.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/compat.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/factory.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/utils.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/context.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/stencil_instructions.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/vertex_instructions.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/instructions.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/shader.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/gl2platform.h
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/c_opengl_debug.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/transformation.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/svg.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/context.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/texture.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/opengl_utils.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/opcodes.pxi
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/compiler.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/config.pxi
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/svg.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/texture.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/gl_redirect.h
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/opengl_utils.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/compiler.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/stencil_instructions.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/vertex.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/fbo.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/buffer.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/opengl.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/instructions.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/gl_debug_logger.pxi
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/context_instructions.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/buffer.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/common_subset.h
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/transformation.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/c_opengl_debug.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/scissor_instructions.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/vbo.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/config.h
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/common.pxi
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/shader.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/vertex_instructions_line.pxi
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/context_instructions.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/vertex_instructions.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/khrplatform.h
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/img_tools.pxi
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/tesselator.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/fbo.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/vertex.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/c_opengl.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/gl_instructions.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/vbo.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/tesselator.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/graphics/opengl_utils_def.pxi
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/deps/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/extras/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/extras/highlight.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/touchring.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/webdebugger.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/inspector.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/screen.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/_webdebugger.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/keybinding.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/recorder.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/console.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/modules/monitor.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/adapters/args_converters.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/adapters/models.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/adapters/listadapter.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/adapters/adapter.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/adapters/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/adapters/dictadapter.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/adapters/simplelistadapter.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/storage/redisstore.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/storage/dictstore.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/storage/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/storage/jsonstore.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/mtdev.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/ddsfile.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/osc/oscAPI.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/osc/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/osc/OSC.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/gstplayer/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/vidcore_lite/bcm.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/lib/vidcore_lite/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/effects/kinetic.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/effects/opacityscroll.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/effects/dampedscroll.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/effects/scroll.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/effects/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/textinput.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/togglebutton.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/spinner.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/actionbar.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/video.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/bubble.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/filechooser.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/progressbar.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/button.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/gridlayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/effectwidget.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/stencilview.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/colorpicker.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/gesturesurface.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/label.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/abstractview.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/rst.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/scatterlayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/floatlayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/image.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/widget.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/relativelayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/scatter.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/accordion.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/dropdown.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/anchorlayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/vkeyboard.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/switch.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/checkbox.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/modalview.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/settings.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/selectableview.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/splitter.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/stacklayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/pagelayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/camera.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/screenmanager.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/popup.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/slider.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/boxlayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/codeinput.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/sandbox.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/carousel.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/layout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/videoplayer.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/listview.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/treeview.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/tabbedpanel.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/scrollview.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors/togglebutton.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors/emacs.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors/button.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors/codenavigation.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors/compoundselection.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors/focus.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors/knspace.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/uix/behaviors/drag.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/window/window_egl_rpi.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/window/window_pygame.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/window/window_sdl2.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/window/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/gl/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/spelling/spelling_enchant.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/spelling/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/text/text_pygame.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/text/text_sdl2.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/text/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/text/text_layout.pxd
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/text/markup.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/text/text_pil.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/text/text_layout.so
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/camera/camera_pygst.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/camera/camera_android.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/camera/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/camera/camera_opencv.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/camera/camera_gi.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/video/video_ffmpeg.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/video/video_ffpyplayer.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/video/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/video/video_gi.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/video/video_pygst.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/video/video_null.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/video/video_gstplayer.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/audio/audio_pygst.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/audio/audio_pygame.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/audio/audio_ffpyplayer.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/audio/audio_avplayer.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/audio/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/audio/audio_gi.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/audio/audio_gstplayer.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/image/img_sdl2.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/image/img_gif.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/image/img_pil.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/image/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/image/img_dds.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/image/img_pygame.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/image/img_ffpyplayer.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/image/img_tex.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_xclip.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_sdl2.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/_clipboard_ext.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_nspaste.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_gtk3.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_dummy.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_android.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_dbusklipper.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_xsel.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_pygame.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/core/clipboard/clipboard_winctypes.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/motionevent.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/shape.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/recorder.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/provider.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/factory.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/providers/tuio.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/providers/leapfinger.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/providers/androidjoystick.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/providers/mouse.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/providers/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/providers/linuxwacom.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/postproc/dejitter.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/postproc/calibration.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/postproc/tripletap.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/postproc/retaintouch.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/postproc/ignorelist.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/postproc/doubletap.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/input/postproc/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/testkv.kv
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_video.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_widget.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_uix_boxlayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/visual_test_label.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_uix_gridlayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_issue_1084.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_uix_anchorlayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_graphics.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_selection.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_storage.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_app.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_issue_599.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_animations.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_fonts.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_uix_layout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_issue_1091.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/unicode_font.zip
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/perf_test_textinput.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_knspace.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_adapters.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_widget_walk.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_invalid_lang.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_urlrequest.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_image.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_clock.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_doc_gallery.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_filechooser_unicode.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_uix_relativelayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_uix_widget.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_lang.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_clipboard.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/common.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_properties.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_issue_883.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_lang_complex.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_issue_609.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_uix_listview.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_vector.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_audio.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_filechooser.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_utils.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/sample1.ogg
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_uix_stacklayout.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_button.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/test_multistroke.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/tests/unicode_files.zip
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/ext/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/network/urlrequest.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/network/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/garden/__init__.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/style.kv
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/settings_kivy.json
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/keyboards/azerty.json
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/keyboards/qwerty.json
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/keyboards/de_CH.json
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/keyboards/fr_CH.json
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/keyboards/qwertz.json
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/keyboards/en_US.json
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/glsl/default.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/glsl/default.vs
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/glsl/default.fs
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/glsl/header.vs
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/glsl/header.fs
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/fonts/Roboto-Regular.ttf
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/fonts/Roboto-BoldItalic.ttf
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/fonts/DejaVuSans.ttf
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/fonts/Roboto-Bold.ttf
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildoBuildfile: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at /home/dalem/.buildozer/android/platform/android-sdk-20
+
+-setup:
+     [echo] Project Name: KivyCrashCourse2-1.0
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.2
+     [echo] Resolving Build Target for KivyCrashCourse2-1.0...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/bin/rsObj
+    [mkdir] Created dir: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/bin/rsLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for KivyCrashCourse2-1.0...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Found modified input file
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] Found 1 AIDL files.
+     [aidl] Compiling 1 AIDL files.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Found modified input file
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 37 source files to /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/bin/classes
+    [javac] error: Source option 1.5 is no longer supported. Use 1.6 or later.
+    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+zer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/fonts/RobotoMono-Regular.ttf
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/fonts/Roboto-Italic.ttf
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-16.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-64.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-256.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-512.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-24.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-48.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-32.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/logo/kivy-icon-128.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/images/background.jpg
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/images/testpattern.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/images/defaulttheme.atlas
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/images/image-loading.gif
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/private/lib/python2.7/site-packages/kivy/data/images/defaulttheme-0.png
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/log
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/kcc1.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/sitecustomize.pyo
+assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/main.pyo
+
+BUILD FAILED
+/home/dalem/.buildozer/android/platform/android-sdk-20/tools/ant/build.xml:716: The following error occurred while executing this line:
+/home/dalem/.buildozer/android/platform/android-sdk-20/tools/ant/build.xml:730: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+Traceback (most recent call last):
+  File "build.py", line 517, in <module>
+    make_package(args)
+  File "build.py", line 365, in make_package
+    subprocess.check_call([ANT, arg])
+  File "/usr/lib/python2.7/subprocess.py", line 541, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['ant', 'debug']' returned non-zero exit status 1
+# Command failed: python build.py --name 'Kivy Crash Course 2' --version 1.0 --package org.test.kivycrash2 --sdk 19 --minsdk 9 --private /home/dalem/PycharmProjects/kivy/.buildozer/android/app --orientation sensor --window debug
+# 
+# Buildozer failed to execute the last command
+# The error might be hidden in the log above this error
+# Please read the full log, and search for it before
+# raising an issue with buildozer itself.
+# In case of a bug report, please add a full log with log_level = 2

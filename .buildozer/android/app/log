@@ -1,0 +1,37 @@
+# Check configuration tokens
+# Ensure build layout
+# Check configuration tokens
+# Preparing build
+# Check requirements for android
+# Run 'dpkg --version'
+# Cwd None
+Debian 'dpkg' package management program version 1.18.4 (amd64).
+This is free software; see the GNU General Public License version 2 or
+later for copying conditions. There is NO warranty.
+# Search for Git (git)
+#  -> found at /usr/bin/git
+# Search for Cython (cython)
+#  -> found at /usr/local/bin/cython
+# Search for Java compiler (javac)
+#  -> found at /usr/lib/jvm/java-8-oracle/bin/javac
+# Search for Java keytool (keytool)
+#  -> found at /usr/lib/jvm/java-9-oracle/bin/keytool
+# Install platform
+# Apache ANT found at /home/dalem/.buildozer/android/platform/apache-ant-1.9.4
+# Android SDK found at /home/dalem/.buildozer/android/platform/android-sdk-20
+# Android NDK found at /home/dalem/.buildozer/android/platform/android-ndk-r9c
+# Check application requirements
+# Run './distribute.sh -l'
+# Cwd /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android
+Available modules: android apsw audiostream bidi boost cherrypy c_igraph click cprotobuf cymunk django docutils ecdsa enum34 evdev ffmpeg ffmpeg2 ffpyplayer ffpyplayer_tito flask freetype gevent greenlet harfbuzz hostpython igraph itsdangerous jinja2 jpeg kivent_core kivent_cymunk kivy leveldb libevent libpq libsodium libswift libtorrent libxml2 libxslt libyaml lxml m2crypto markupsafe midistream msgpack mysql_connector netifaces numpy opencv openssl paramiko pil plyer plyvel png polygon protobuf psutil psycopg2 pyasn1 pycrypto pygame pyjnius pylibpd pyopenssl pyparsing pyqrcode python pyyaml sdl setuptools six sqlalchemy sqlite3 storm swift thrift twisted txws werkzeug wokkel zeroconf zope
+# Application requirements already installed, pass
+# Check garden requirements
+# Compile platform
+# Run './distribute.sh -l'
+# Cwd /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android
+Available modules: android apsw audiostream bidi boost cherrypy c_igraph click cprotobuf cymunk django docutils ecdsa enum34 evdev ffmpeg ffmpeg2 ffpyplayer ffpyplayer_tito flask freetype gevent greenlet harfbuzz hostpython igraph itsdangerous jinja2 jpeg kivent_core kivent_cymunk kivy leveldb libevent libpq libsodium libswift libtorrent libxml2 libxslt libyaml lxml m2crypto markupsafe midistream msgpack mysql_connector netifaces numpy opencv openssl paramiko pil plyer plyvel png polygon protobuf psutil psycopg2 pyasn1 pycrypto pygame pyjnius pylibpd pyopenssl pyparsing pyqrcode python pyyaml sdl setuptools six sqlalchemy sqlite3 storm swift thrift twisted txws werkzeug wokkel zeroconf zope
+# Distribution already compiled, pass.
+# Build the application #16
+# Copy application source from /home/dalem/PycharmProjects/kivy
+# Create directory /home/dalem/PycharmProjects/kivy/.buildozer/android/app
+# Copy /home/dalem/PycharmProjects/kivy/log
