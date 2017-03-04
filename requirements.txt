@@ -28,3 +28,5 @@
 #
 # Yeah; it built it!
 # buildozer android deploy
+# The adb android debugger (or whatever) didn't see my device attached. So I emailed the apk to myself.
+
