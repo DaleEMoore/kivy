@@ -27,3 +27,4 @@
 # dalem@QnD:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
 #
 # Yeah; it built it!
+# buildozer android deploy
