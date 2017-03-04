@@ -20,3 +20,10 @@
 #   buildozer android clean
 #   buildozer android debug
 # endif
+
+# pip install --upgrade buildozer
+# ...
+# Successfully installed virtualenv-15.1.0
+# dalem@QnD:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
+#
+# Yeah; it built it!

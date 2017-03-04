@@ -60,6 +60,8 @@ fullscreen = 0
 #android.permissions = INTERNET
 
 # (int) Android API to use
+android.api = 14
+#Error: Target id 'android-19' is not valid. Use 'android list targets' to get the target ids.
 #android.api = 14
 
 # (int) Minimum API required (8 = Android 2.2 devices)

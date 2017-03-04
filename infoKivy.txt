@@ -75,6 +75,12 @@ Still nada....
     http://fantom.org/forum/topic/1765
     http://stackoverflow.com/questions/1927594/is-is-possible-to-build-java-code-using-jdk-1-6-to-run-on-jre-1-5
 
+search for kivy or buildozer install ubuntu 16.04.
+http://buildozer.readthedocs.io/en/latest/installation.html
+pip install --upgrade buildozer
+...
+Successfully installed virtualenv-15.1.0
+dalem@QnD:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
 
 
 

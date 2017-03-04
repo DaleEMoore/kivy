@@ -1,3 +1,5 @@
+# Kivy Crash Course (KCC) first simple application (app)
+
 __author__ = 'dalem'
 # From: http://inclem.net/pages/kivy-crash-course/
 #   https://www.youtube.com/watch?v=F7UKmK9eQLY&list=PLdNh1e1kmiPP4YApJm8ENK2yMlwF1_edq
@@ -23,7 +25,7 @@ class TutorialApp(App):
 if __name__ == "__main__":
     TutorialApp().run()
 """
-/usr/bin/python2.7 /home/dalem/PycharmProjects/kivy/main.py
+/usr/bin/python2.7 /home/dalem/PycharmProjects/kivy/kcc1.py
 [INFO              ] Kivy v1.8.0
 [INFO              ] [Logger      ] Record log in /home/dalem/.kivy/logs/kivy_14-10-21_1.txt
 [INFO              ] [Factory     ] 157 symbols loaded
