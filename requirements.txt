@@ -24,9 +24,49 @@
 # pip install --upgrade buildozer
 # ...
 # Successfully installed virtualenv-15.1.0
-# dalem@QnD:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
+# dalem@QnD:~/PycharmProjects/kivy⟫ buildozer >log.log 2>&1 -v android debug
 #
 # Yeah; it built it!
 # buildozer android deploy
 # The adb android debugger (or whatever) didn't see my device attached. So I emailed the apk to myself.
 
+# did "pip install --upgrade buildozer" at MW.Mercury and still got a buildozer error:
+#...
+#-compile:
+#    [javac] Compiling 37 source files to /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/bin/classes
+#    [javac] error: Source option 1.5 is no longer supported. Use 1.6 or later.
+#    [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+#...
+#assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/main.pyo
+#Traceback (most recent call last):
+#  File "build.py", line 517, in <module>
+#    make_package(args)
+#  File "build.py", line 365, in make_package
+#    subprocess.check_call([ANT, arg])
+#  File "/usr/lib/python2.7/subprocess.py", line 541, in check_call
+#    raise CalledProcessError(retcode, cmd)
+#subprocess.CalledProcessError: Command '['ant', 'debug']' returned non-zero exit status 1
+# Command failed: python build.py --name 'Kivy Crash Course 2' --version 1.0 --package org.test.kivycrash2 --sdk 14 --minsdk 9 --private /home/dalem/PycharmProjects/kivy/.buildozer/android/app --orientation sensor --window debug
+#
+# Buildozer failed to execute the last command
+# The error might be hidden in the log above this error
+# Please read the full log, and search for it before
+# raising an issue with buildozer itself.
+# In case of a bug report, please add a full log with log_level = 2
+#dalem@Mercury2:~/PycharmProjects/kivy⟫ update-alternatives --list javac
+#/usr/lib/jvm/java-8-openjdk-amd64/bin/javac
+#/usr/lib/jvm/java-8-oracle/bin/javac
+#/usr/lib/jvm/java-9-oracle/bin/javac
+#dalem@Mercury2:~/PycharmProjects/kivy⟫ javac -version
+#javac 1.8.0_121
+#What's running @ dalem@DaleHome.QnD?
+#dalem@QnD:~$ javac -version
+#javac 1.8.0_121
+# Well... that's not it.
+
+
+# dalem@QnD:~/PycharmProjects/kivy⟫ buildozer >log.log 2>&1 -v android debug
+# less log.log
+# /home/dalem/.buildozer/android/platform/android-sdk-20/tools/ant/build.xml:538: Unable to resolve project target 'android-14'
+
+# Won't "buildozer android debug" at MW.Mercury
