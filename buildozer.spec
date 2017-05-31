@@ -60,7 +60,8 @@ fullscreen = 0
 #android.permissions = INTERNET
 
 # (int) Android API to use
-android.api = 14
+android.api = 19
+#android.api = 20 # Still getting android-14 not found, try =19.
 #Error: Target id 'android-19' is not valid. Use 'android list targets' to get the target ids.
 #android.api = 14
 

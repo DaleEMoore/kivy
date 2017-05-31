@@ -1,4 +1,6 @@
 # Kivy Crash Course (KCC) first simple application (app)
+# This displays "Hello!" and KIVY let's you right-click to mark the center
+# and drag it around.
 
 __author__ = 'dalem'
 # From: http://inclem.net/pages/kivy-crash-course/

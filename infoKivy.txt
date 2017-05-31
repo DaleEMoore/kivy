@@ -5,6 +5,25 @@ https://github.com/DaleEMoore/kivy
 
 To Do
 buildozer failing...
+    Dale's TODO https://docs.google.com/document/d/1h2lAYZ7Jbd2uFhXnGNKDOBwLXemvd6qWwPEsZuJrdY8/edit#
+    Create an Android HiWorld application with KIVY that can be developed at
+    https://github.com/DaleEMoore/kivy
+    DaleHome.QnD
+    MW.Mercury
+    pycharm Unable to resolve project target 'android-14'
+    ~/.buildozer/android/platform has android-sdk-20 so can I change the project to use android-20 instead of android-14?
+    Look at buildozer.spec. (android.api = 14) try = 20.
+    I think it’s getting further! Now getting:
+    Error: Target id 'android-14' is not valid. Use 'android list targets' to get the target ids.
+    It looks like there’s android-19 and android-20 present. Try -19 now. No good.
+    https://stackoverflow.com/questions/27319495/error-java-home-is-not-defined-correctly-executing-maven
+    JAVA_HOME=/usr/lib/jvm/java-9-oracle which does not exist.
+    dalem@Mercury2:~/PycharmProjects/kivy⟫ JAVA_HOME=/usr/bin/java; buildozer android debug > log.log
+    Nope. Now /home/dalem/PycharmProjects/kivy/.buildoError: JAVA_HOME is not defined correctly.
+      We cannot execute /usr/bin/java/bin/java
+
+
+buildozer failing...
     buildozer android debug
     ...
     assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/t1
