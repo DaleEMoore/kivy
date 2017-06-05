@@ -4,109 +4,9 @@ https://github.com/DaleEMoore/kivy
 
 
 To Do
-buildozer failing...
-    Dale's TODO https://docs.google.com/document/d/1h2lAYZ7Jbd2uFhXnGNKDOBwLXemvd6qWwPEsZuJrdY8/edit#
-    Create an Android HiWorld application with KIVY that can be developed at
-    https://github.com/DaleEMoore/kivy
-    DaleHome.QnD
-    MW.Mercury
-    pycharm Unable to resolve project target 'android-14'
-    ~/.buildozer/android/platform has android-sdk-20 so can I change the project to use android-20 instead of android-14?
-    Look at buildozer.spec. (android.api = 14) try = 20.
-    I think it’s getting further! Now getting:
-    Error: Target id 'android-14' is not valid. Use 'android list targets' to get the target ids.
-    It looks like there’s android-19 and android-20 present. Try -19 now. No good.
-    https://stackoverflow.com/questions/27319495/error-java-home-is-not-defined-correctly-executing-maven
-    JAVA_HOME=/usr/lib/jvm/java-9-oracle which does not exist.
-    dalem@Mercury2:~/PycharmProjects/kivy⟫ JAVA_HOME=/usr/bin/java; buildozer android debug > log.log
-    Nope. Now /home/dalem/PycharmProjects/kivy/.buildoError: JAVA_HOME is not defined correctly.
-      We cannot execute /usr/bin/java/bin/java
+Two different windows?
+    to display different thing?
 
-
-buildozer failing...
-    buildozer android debug
-    ...
-    assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/t1
-    Traceback (most recent call last):
-      File "build.py", line 517, in <module>
-        make_package(args)
-      File "build.py", line 365, in make_package
-        subprocess.check_call([ANT, arg])
-      File "/usr/lib/python2.7/subprocess.py", line 541, in check_call
-        raise CalledProcessError(retcode, cmd)
-    subprocess.CalledProcessError: Command '['ant', 'debug']' returned non-zero exit status 1
-    # Command failed: python build.py --name 'Kivy Crash Course 2' --version 1.0 --package org.test.kivycrash2 --sdk 19 --minsdk 9 --private /home/dalem/PycharmProjects/kivy/.buildozer/android/app --orientation sensor --window debug
-    #
-    # Buildozer failed to execute the last command
-    # The error might be hidden in the log above this error
-    # Please read the full log, and search for it before
-    # raising an issue with buildozer itself.
-    # In case of a bug report, please add a full log with log_level = 2
-There is no main.py, that's the problem? Nope, built main.py and it's still failing.
-    buildozer android_new debug
-    ...
-    # Run 'python -m pythonforandroid.toolchain --color=always --storage-dir=/home/dalem/PycharmProjects/kivy/.buildozer/android/platform/build create --dist_name=kivycrash2 --bootstrap=sdl2 --requirements=kivy --arch armeabi-v7a --copy-libs'
-    # Cwd /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android-master
-    ERROR: The colorama Python module could not be found, please install version 0.3.3 or higher
-    ERROR: The appdirs Python module could not be found, please install it.
-    ERROR: The sh Python module could not be found, please install version 1.10 or higher
-    ERROR: The jinja2 Python module could not be found, please install it.
-    python-for-android is exiting due to the errors above.
-    # Command failed: python -m pythonforandroid.toolchain --color=always --storage-dir=/home/dalem/PycharmProjects/kivy/.buildozer/android/platform/build create --dist_name=kivycrash2 --bootstrap=sdl2 --requirements=kivy --arch armeabi-v7a --copy-libs
-    #
-    # Buildozer failed to execute the last command
-    # The error might be hidden in the log above this error
-    # Please read the full log, and search for it before
-    # raising an issue with buildozer itself.
-    # In case of a bug report, please add a full log with log_level = 2
-
-dalem@Mercury2:~/PycharmProjects/kivy⟫ pip install colorama appdirs sh jinja2
-    Nothing done, nothing installed, everything already OK.
-
-dalem@Mercury2:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
-    Look at log file
-It looks like the javac version is wrong.
-    -compile:
-        [javac] Compiling 37 source files to /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/bin/classes
-        [javac] error: Source option 1.5 is no longer supported. Use 1.6 or later.
-        [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
-    dalem@Mercury2:~/PycharmProjects/kivy⟫ update-alternatives --config javac
-    There are 3 choices for the alternative javac (providing /usr/bin/javac).
-
-      Selection    Path                                         Priority   Status
-    ------------------------------------------------------------
-      0            /usr/lib/jvm/java-9-oracle/bin/javac          1091      auto mode
-      1            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac   1081      manual mode
-      2            /usr/lib/jvm/java-8-oracle/bin/javac          1081      manual mode
-    * 3            /usr/lib/jvm/java-9-oracle/bin/javac          1091      manual mode
-
-    Change it to
-    2            /usr/lib/jvm/java-8-oracle/bin/javac          1081      manual mode
-    then re-test.
-
-    javac -version
-    1.8.?...
-    Same error. Get version 1.6...
-
-Still nada....
-    Get a 1.5 or 1.6 version of javac?
-    http://stackoverflow.com/questions/8970920/maven-javac-source-release-1-6-requires-target-release-1-6
-    http://fantom.org/forum/topic/1765
-    http://stackoverflow.com/questions/1927594/is-is-possible-to-build-java-code-using-jdk-1-6-to-run-on-jre-1-5
-
-search for kivy or buildozer install ubuntu 16.04.
-http://buildozer.readthedocs.io/en/latest/installation.html
-pip install --upgrade buildozer
-...
-Successfully installed virtualenv-15.1.0
-dalem@QnD:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
-
-
-
-Get kivy running and make Hi World app for Linux.
-    Running on DaleHome.QnD, MW.Mercury.
-
-Make Android and iOS and MAC and Windows versions of the Hi World app.
 
 I wanna use Kivy for Dr. David Edwards psychological profile interviews and reporting (psyIn).
 Learn Kivy.
@@ -2762,4 +2662,158 @@ Delete https://github.com/DaleEMoore/kivy_learn since I already had
        https://github.com/DaleEMoore/kivy
 
 Kivy Crash Course (KCC) first simple application (app)
+
+
+
+Monday 5 June 2017 10:56 AM CST
+I got it working to buildozer a Hi World application.
+buildozer failing...
+    Dale's TODO https://docs.google.com/document/d/1h2lAYZ7Jbd2uFhXnGNKDOBwLXemvd6qWwPEsZuJrdY8/edit#
+    Create an Android HiWorld application with KIVY that can be developed at
+    https://github.com/DaleEMoore/kivy
+    DaleHome.QnD
+    MW.Mercury
+    pycharm Unable to resolve project target 'android-14'
+    ~/.buildozer/android/platform has android-sdk-20 so can I change the project to use android-20 instead of android-14?
+    Look at buildozer.spec. (android.api = 14) try = 20.
+    I think it’s getting further! Now getting:
+    Error: Target id 'android-14' is not valid. Use 'android list targets' to get the target ids.
+    It looks like there’s android-19 and android-20 present. Try -19 now. No good.
+    https://stackoverflow.com/questions/27319495/error-java-home-is-not-defined-correctly-executing-maven
+    JAVA_HOME=/usr/lib/jvm/java-9-oracle which does not exist.
+    dalem@Mercury2:~/PycharmProjects/kivy⟫ JAVA_HOME=/usr/bin/java; buildozer android debug > log.log
+    Nope. Now /home/dalem/PycharmProjects/kivy/.buildoError: JAVA_HOME is not defined correctly.
+      We cannot execute /usr/bin/java/bin/java
+    android list target
+    root@Mercury2:~# find / -perm -u+x -type f  | grep android$
+    /home/dalem/.buildozer/android/platform/android-sdk-20/tools/android
+
+    root@Mercury2:~# /home/dalem/.buildozer/android/platform/android-sdk-20/tools/android list target
+Available Android targets:
+----------
+id: 1 or "android-19"
+     Name: Android 4.4.2
+     Type: Platform
+     API level: 19
+     Revision: 4
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : no ABIs.
+----------
+id: 2 or "android-20"
+     Name: Android 4.4W.2
+     Type: Platform
+     API level: 20
+     Revision: 2
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : no ABIs.
+
+    /home/dalem/PycharmProjects/kivy buildozer android debug
+    ...
+    assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildoError: JAVA_HOME is not defined correctly.
+    We cannot execute /usr/bin/java/bin/java
+    ...
+dalem@Mercury2:~/PycharmProjects/kivy⟫ java -version
+openjdk version "1.8.0_131"
+OpenJDK Runtime Environment (build 1.8.0_131-8u131-b11-0ubuntu1.16.04.2-b11)
+OpenJDK 64-Bit Server VM (build 25.131-b11, mixed mode)
+dalem@Mercury2:~/PycharmProjects/kivy⟫ /usr/bin/java -version
+openjdk version "1.8.0_131"
+OpenJDK Runtime Environment (build 1.8.0_131-8u131-b11-0ubuntu1.16.04.2-b11)
+OpenJDK 64-Bit Server VM (build 25.131-b11, mixed mode)
+dalem@Mercury2:~/PycharmProjects/kivy⟫ echo $JAVA_HOME
+/usr/bin/java
+
+vi ~/.profile
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle/jre
+export PATH=$JAVA_HOME/bin:$PATH
+
+re-login. It seems to be working now.
+# Android packaging done!
+# APK KivyCrashCourse2-1.0-debug.apk available in the bin directory
+
+
+buildozer failing...
+    buildozer android debug
+    ...
+    assets/private.mp3: /home/dalem/PycharmProjects/kivy/.buildozer/android/app/t1
+    Traceback (most recent call last):
+      File "build.py", line 517, in <module>
+        make_package(args)
+      File "build.py", line 365, in make_package
+        subprocess.check_call([ANT, arg])
+      File "/usr/lib/python2.7/subprocess.py", line 541, in check_call
+        raise CalledProcessError(retcode, cmd)
+    subprocess.CalledProcessError: Command '['ant', 'debug']' returned non-zero exit status 1
+    # Command failed: python build.py --name 'Kivy Crash Course 2' --version 1.0 --package org.test.kivycrash2 --sdk 19 --minsdk 9 --private /home/dalem/PycharmProjects/kivy/.buildozer/android/app --orientation sensor --window debug
+    #
+    # Buildozer failed to execute the last command
+    # The error might be hidden in the log above this error
+    # Please read the full log, and search for it before
+    # raising an issue with buildozer itself.
+    # In case of a bug report, please add a full log with log_level = 2
+There is no main.py, that's the problem? Nope, built main.py and it's still failing.
+    buildozer android_new debug
+    ...
+    # Run 'python -m pythonforandroid.toolchain --color=always --storage-dir=/home/dalem/PycharmProjects/kivy/.buildozer/android/platform/build create --dist_name=kivycrash2 --bootstrap=sdl2 --requirements=kivy --arch armeabi-v7a --copy-libs'
+    # Cwd /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android-master
+    ERROR: The colorama Python module could not be found, please install version 0.3.3 or higher
+    ERROR: The appdirs Python module could not be found, please install it.
+    ERROR: The sh Python module could not be found, please install version 1.10 or higher
+    ERROR: The jinja2 Python module could not be found, please install it.
+    python-for-android is exiting due to the errors above.
+    # Command failed: python -m pythonforandroid.toolchain --color=always --storage-dir=/home/dalem/PycharmProjects/kivy/.buildozer/android/platform/build create --dist_name=kivycrash2 --bootstrap=sdl2 --requirements=kivy --arch armeabi-v7a --copy-libs
+    #
+    # Buildozer failed to execute the last command
+    # The error might be hidden in the log above this error
+    # Please read the full log, and search for it before
+    # raising an issue with buildozer itself.
+    # In case of a bug report, please add a full log with log_level = 2
+
+dalem@Mercury2:~/PycharmProjects/kivy⟫ pip install colorama appdirs sh jinja2
+    Nothing done, nothing installed, everything already OK.
+
+dalem@Mercury2:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
+    Look at log file
+It looks like the javac version is wrong.
+    -compile:
+        [javac] Compiling 37 source files to /home/dalem/PycharmProjects/kivy/.buildozer/android/platform/python-for-android/dist/kivycrash2/bin/classes
+        [javac] error: Source option 1.5 is no longer supported. Use 1.6 or later.
+        [javac] error: Target option 1.5 is no longer supported. Use 1.6 or later.
+    dalem@Mercury2:~/PycharmProjects/kivy⟫ update-alternatives --config javac
+    There are 3 choices for the alternative javac (providing /usr/bin/javac).
+
+      Selection    Path                                         Priority   Status
+    ------------------------------------------------------------
+      0            /usr/lib/jvm/java-9-oracle/bin/javac          1091      auto mode
+      1            /usr/lib/jvm/java-8-openjdk-amd64/bin/javac   1081      manual mode
+      2            /usr/lib/jvm/java-8-oracle/bin/javac          1081      manual mode
+    * 3            /usr/lib/jvm/java-9-oracle/bin/javac          1091      manual mode
+
+    Change it to
+    2            /usr/lib/jvm/java-8-oracle/bin/javac          1081      manual mode
+    then re-test.
+
+    javac -version
+    1.8.?...
+    Same error. Get version 1.6...
+
+Still nada....
+    Get a 1.5 or 1.6 version of javac?
+    http://stackoverflow.com/questions/8970920/maven-javac-source-release-1-6-requires-target-release-1-6
+    http://fantom.org/forum/topic/1765
+    http://stackoverflow.com/questions/1927594/is-is-possible-to-build-java-code-using-jdk-1-6-to-run-on-jre-1-5
+
+search for kivy or buildozer install ubuntu 16.04.
+http://buildozer.readthedocs.io/en/latest/installation.html
+pip install --upgrade buildozer
+...
+Successfully installed virtualenv-15.1.0
+dalem@QnD:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
+
+
+
+Get kivy running and make Hi World app for Linux.
+    Running on DaleHome.QnD, MW.Mercury.
+
+Make Android and iOS and MAC and Windows versions of the Hi World app.
 
