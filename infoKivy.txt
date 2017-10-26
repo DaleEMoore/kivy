@@ -4,6 +4,14 @@ https://github.com/DaleEMoore/kivy
 
 
 To Do
+ImportError: No module named 'kivy._clock'
+    kivy examples/widgets/recycleview/basic_data.py gets this error.
+    Working with JetBrains/Pycharm because the command line works.
+
+Android build worked, try iOS and get it to Melissa, Luter, ? for testing
+    dalem@QnD:~/PycharmProjects/kivy⟫ buildozer >log 2>&1 -v android debug
+
+
 Two different windows?
     to display different thing?
 

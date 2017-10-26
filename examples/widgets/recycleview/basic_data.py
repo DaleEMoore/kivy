@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 from random import sample
 from string import ascii_lowercase
 
