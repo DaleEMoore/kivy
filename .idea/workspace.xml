@@ -4,7 +4,6 @@
     <list default="true" id="8cdae169-f2a4-4b16-aa1b-128d7fcece95" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/widgets/recycleview/basic_data.py" afterPath="$PROJECT_DIR$/examples/widgets/recycleview/basic_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/infoKivy.txt" afterPath="$PROJECT_DIR$/infoKivy.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="infoKivy.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="infoKivy.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/infoKivy.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="18">
               <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basic_data.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basic_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/widgets/recycleview/basic_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+            <state relative-caret-position="198">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="e#23#48#0" expanded="true" />
               </folding>
@@ -118,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="1534" />
     <option name="height" value="667" />
@@ -139,7 +138,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +167,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,7 +200,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/infoKivy.md</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -209,1187 +208,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.github/CONTRIBUTING.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.github/config.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.github/stale.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/AUTHORS</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/MANIFEST.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Makefile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/appveyor.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/Makefile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/autobuild.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/doc-requirements.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/gallery.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/disclosure_down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/disclosure_up.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/element-class-16.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/element-enumeration-16.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/element-field-16.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/element-method-16.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/element-property-16.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/element-structure-16.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/fresh.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/jquery-effects-core-and-slide.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/jquery.cookie.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/kivy.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.static/logo-kivy.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/.templates/layout.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/conf.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/contact.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/contents.rst.inc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/contribute-unittest.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/contribute.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/examples/README</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/faq.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/diving.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/drawing.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/events.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/examples.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/first_app.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/framework.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/index.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/installation.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/intro.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/layouts.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/packaging.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/properties.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gettingstarted/rules.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gsoc.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gsoc2014.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gsoc2015.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/gsoc2016.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide-index.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/android.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/architecture.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/basic.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/config.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/environment.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/events.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/graphics.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/Events.pdf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/Events.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/api-button.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/custom_layout_background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/global_background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/guide_customize_step1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/layout_background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/pos_hint.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/property_events_binding.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/quickstart.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/size_hint[B].jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/size_hint[b_].jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/size_hint[bb].jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/images/size_hint[oB].jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/inputs.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/lang.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/licensing.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/other-frameworks.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/packaging-android-vm.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/packaging-android.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/packaging-ios-prerequisites.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/packaging-ios.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/packaging-osx.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/packaging-windows.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/packaging.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/guide/widgets.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/Kivy_App_Life_Cycle.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/Kivy_App_Life_Cycle.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/accordion.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/actionbar.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/adapters.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anchorlayout.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anchorlayout.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_back.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_bounce.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_circ.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_cubic.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_elastic.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_expo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_back.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_bounce.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_circ.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_cubic.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_elastic.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_expo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_quad.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_quart.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_quint.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_out_sine.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_quad.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_quart.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_quint.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_in_sine.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_linear.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_back.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_bounce.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_circ.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_cubic.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_elastic.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_expo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_quad.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_quart.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_quint.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/anim_out_sine.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/app-settings.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/architecture.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/architecture.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/boxlayout.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/boxlayout.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/bubble.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/button.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/carousel.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/checkbox.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/codeinput.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/colorpicker.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/dropdown.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/easing-modes.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/3Drendering__main__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/animation__animate__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/application__app_suite__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/application__app_with_build__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/application__app_with_kv__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/application__app_with_kv_in_template1__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/camera__main__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__bezier__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__canvas_stress__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__circle__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__fbo_canvas__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__lines__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__lines_extended__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__mesh__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__multitexture__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__repeat_texture__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__rotation__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__stencil_canvas__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__tesselate__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/canvas__texture__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/demo__camera_puzzle__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/demo__kivycatalog__main__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/demo__multistroke__main__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/demo__pictures__main__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/demo__shadereditor__main__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/demo__showcase__main__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/examples/demo__touchtracer__main__py.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/filechooser_icon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/filechooser_list.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/floatlayout.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/floatlayout.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gridlayout.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gridlayout.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gridlayout_1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gridlayout_2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gridlayout_3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gs-animation.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gs-atlas.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gs-drawing.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gs-events-class.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gs-events-clock.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gs-events-input.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gs-introduction.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gs-lang.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/gs-tutorial.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/input_xbox.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/label.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/line-instruction.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/linux.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/macosx.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/pagelayout.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/popup.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/progressbar.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/raspberrypi.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/relativelayout-doubleposition.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/relativelayout-fixedposition.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/rstdocument.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/scatter.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/screenmanager.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/settings_kivy.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/settingswithspinner_kivy.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/slider.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/spinner.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/splitter.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/stacklayout.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/stacklayout.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/stacklayout_sizing.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/stencilview.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/switch-off.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/switch-on.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/tabbed_panel.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/tesselator-debug.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/tesselator-filled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/textinput-mono.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/textinput-multi.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/togglebutton.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/treeview.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/unicode-char.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/videoplayer-annotation.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/videoplayer.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/vkeyboard.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/images/windows.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/index.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-result1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-result2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-step1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-step3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-step4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-step5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-step6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-step7.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-step8.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/images/win-step9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/installation-android.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/installation-linux.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/installation-osx.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/installation-rpi.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/installation-windows.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/installation/installation.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/kivy-logo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/kivystyle.sty</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/logo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/philosophy.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/sphinxext/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/sphinxext/autodoc.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/sphinxext/kivy_pygments_theme.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/sphinxext/preprocess.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/tutorials-index.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/tutorials/crashcourse.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/tutorials/firstwidget.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/tutorials/images/guide-3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/tutorials/images/guide-4.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/tutorials/images/guide-5.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/tutorials/images/guide-6.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/tutorials/pong.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/tutorials/pong.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/sources/user-guide.rst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/3Drendering/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/3Drendering/monkey.obj</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/3Drendering/objloader.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/3Drendering/simple.glsl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/RST_Editor/editor.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/RST_Editor/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/compass/android.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/compass/compass.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/compass/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/compass/needle.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/compass/rose.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/takepicture/android.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/takepicture/buildozer.spec</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/takepicture/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/takepicture/shadow32.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/android/takepicture/takepicture.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/animation/animate.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/application/app_suite.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/application/app_suite_data/testkvdir.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/application/app_with_build.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/application/app_with_kv.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/application/app_with_kv_in_template1.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/application/template1/test.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/application/test.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/application/testkvfile.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12908_sweet_trip_mm_clap_hi.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12909_sweet_trip_mm_clap_lo.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12910_sweet_trip_mm_clap_mid.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12911_sweet_trip_mm_hat_cl.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12913_sweet_trip_mm_kick_hi.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12914_sweet_trip_mm_kick_lo.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12915_sweet_trip_mm_kick_mid.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12916_sweet_trip_mm_kwik_mod_01.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12917_sweet_trip_mm_kwik_mod_02.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12918_sweet_trip_mm_kwik_mod_03.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12919_sweet_trip_mm_kwik_mod_04.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12920_sweet_trip_mm_kwik_mod_05.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12921_sweet_trip_mm_kwik_mod_06.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12922_sweet_trip_mm_kwik_mod_07.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12923_sweet_trip_mm_metal_clave.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12925_sweet_trip_mm_sweep_x.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12926_sweet_trip_mm_sweep_y.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/12927_sweet_trip_mm_sweep_z.wav</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/audio.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/buildozer.spec</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/audio/pitch.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/camera/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/bezier.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/canvas_stress.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/circle.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/fbo_canvas.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/kiwi.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/lines.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/lines_extended.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/mesh.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/mesh_manipulation.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/mtexture1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/mtexture2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/multitexture.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/repeat_texture.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/rotation.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/rounded_rectangle.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/scale.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/stencil_canvas.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/tesselate.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/texture.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/canvas/texture_example_image.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/container/kv/1.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/container/kv/2.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/container/kv/3.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/container/kv/root.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/container/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/cover/cover_image.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/cover/cover_video.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/camera_puzzle.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/AnchorLayoutContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/BoxLayoutContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/ButtonContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/CheckBoxContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/FileChooserContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/FloatLayoutContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/GridLayoutContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/LabelContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/MediaContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/PlaygroundContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/PopupContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/ProgressBarContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/RestContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/ScatterContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/SelectorsContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/StackLayoutContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/container_kvs/TextContainer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/kivycatalog.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/kivycatalog/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/multistroke/gesturedatabase.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/multistroke/gesturedatabase.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/multistroke/helpers.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/multistroke/historymanager.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/multistroke/historymanager.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/multistroke/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/multistroke/multistroke.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/multistroke/settings.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/multistroke/settings.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/pictures/android.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/pictures/images/.empty</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/pictures/images/Bubbles.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/pictures/images/Ill1.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/pictures/images/Wall.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/pictures/images/faust_github.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/pictures/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/pictures/pictures.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/pictures/shadow32.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/shadereditor/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/shadereditor/shadereditor.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/README.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/android.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/faust_github.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/icons/README</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/icons/next.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/icons/prev.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/icons/sourcecode.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/accordions.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/bubbles.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/buttons.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/carousel.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/checkboxes.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/codeinput.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/dropdown.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/filechoosers.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/popups.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/progressbar.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/rstdocument.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/scatter.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/screenmanager.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/sliders.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/spinner.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/splitter.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/switches.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/tabbedpanel + layouts.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/textinputs.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/data/screens/togglebutton.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/showcase/showcase.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/touchtracer/README.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/touchtracer/android.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/touchtracer/icon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/touchtracer/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/touchtracer/particle.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/demo/touchtracer/touchtracer.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/frameworks/twisted/echo_client_app.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/frameworks/twisted/echo_server_app.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/frameworks/twisted/twistd_app.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/gestures/gesture_board.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/gestures/my_gestures.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/guide/designwithkv/controller.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/guide/designwithkv/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/guide/firstwidget/1_skeleton.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/guide/firstwidget/2_print_touch.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/guide/firstwidget/3_draw_ellipse.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/guide/firstwidget/4_draw_line.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/guide/firstwidget/5_random_colors.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/guide/firstwidget/6_button.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/guide/quickstart/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/includes/button.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/includes/layout.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/includes/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/includes/test.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/keyboard/android.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/keyboard/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/keyboard/numeric.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kinect/README.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kinect/kinectviewer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/app_button.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/app_camera.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/app_fbo.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/app_layout.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/app_logo.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/app_scatter.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/app_stencil.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/app_video.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/builder_template.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/ids/id_in_kv/id_in_kv.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/ids/id_in_kv/test.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/ids/kv_and_py/kv_and_py.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/ids/kv_and_py/test.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/kivy.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/kv/kvrun.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/miscellaneous/clipboard.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/miscellaneous/joystick.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/miscellaneous/multiple_dropfile.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/miscellaneous/shapecollisions.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/miscellaneous/shapedwindow.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/miscellaneous/two_panes.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/settings/android.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/settings/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/shader/plasma.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/shader/plasma.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/shader/shadertree.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/shader/shadertree.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/shader/tex3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/svg/benchmark.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/svg/cloud.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/svg/main-smaa.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/svg/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/svg/music.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/svg/ship.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/svg/sun.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/svg/tiger.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/notes/final/buildozer.spec</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/notes/final/data/icon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/notes/final/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/notes/final/note.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/pong.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step1/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step1/pong.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step2/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step2/pong.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step3/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step3/pong.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step4/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step4/pong.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step5/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/tutorials/pong/steps/step5/pong.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/accordion_1.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/actionbar.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/asyncimage.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/boxlayout_poshint.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/bubble_test.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/camera.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/carousel_buttons.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/cityCC0.jsa</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/cityCC0.mpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/cityCC0.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/codeinput.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/codeinputtest.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/colorpicker.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/colorusage.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/compound_selection.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/customcollide.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/effectwidget.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/effectwidget2.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/effectwidget3_advanced.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/fbowidget.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/focus_behavior.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/image_mipmap.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/keyboardlistener.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/label_mipmap.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/label_sizing.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/label_text_size.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/label_with_markup.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lang_dynamic_classes.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fixtures.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_detail_view.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Apple.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Apple.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Apple.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Apple.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Apple.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Avocado.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Avocado.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Avocado.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Avocado.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Avocado.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Banana.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Banana.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Banana.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Banana.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Banana.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cantaloupe.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cantaloupe.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cantaloupe.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cantaloupe.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cantaloupe.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cherry.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cherry.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cherry.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cherry.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Cherry.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grape.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grape.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grape.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grape.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grape.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grapefruit.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grapefruit.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grapefruit.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grapefruit.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Grapefruit.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Honeydew.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Honeydew.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Honeydew.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Honeydew.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Honeydew.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Kiwifruit.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Kiwifruit.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Kiwifruit.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Kiwifruit.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Kiwifruit.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lemon.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lemon.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lemon.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lemon.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lemon.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lime.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lime.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lime.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lime.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Lime.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Nectarine.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Nectarine.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Nectarine.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Nectarine.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Nectarine.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Orange.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Orange.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Orange.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Orange.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Orange.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Peach.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Peach.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Peach.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Peach.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Peach.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pear.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pear.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pear.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pear.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pear.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pineapple.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pineapple.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pineapple.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pineapple.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Pineapple.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Plum.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Plum.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Plum.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Plum.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Plum.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Strawberry.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Strawberry.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Strawberry.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Strawberry.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Strawberry.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Tangerine.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Tangerine.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Tangerine.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Tangerine.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Tangerine.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Watermelon.128.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Watermelon.256.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Watermelon.32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Watermelon.512.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/Watermelon.64.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/fruit_images/fruit_image_attribution.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_cascade.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_cascade_dict.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_cascade_images.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_composite.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_kv.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_master_detail.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_ops.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_reset_data.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_simple.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_simple_in_kv.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_simple_in_kv_2.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/lists/list_two_up.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/pagelayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/popup_with_kv.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/recycleview/basic_data.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/recycleview/check_python_interpreter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/rstexample.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/scatter.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/scatter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/screenmanager.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/scrollview.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/scrollview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/android.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/bird.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/button_white.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/button_white_animated.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/cube.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/info.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/info.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/data/images/simple_cv_joint_animated.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/main.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/uix/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/sequenced_images/uix/custom_button.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/settings.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/shorten_text.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/spinner.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/splitter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/tabbed_panel_showcase.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/tabbedpanel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/textalign.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/textalign.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/textinput.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/unicode_textinput.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/examples/widgets/videoplayer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/infoKivy.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/_clock.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/_clock.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/_event.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/_event.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/adapters/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/adapters/adapter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/adapters/args_converters.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/adapters/dictadapter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/adapters/listadapter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/adapters/models.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/adapters/simplelistadapter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/animation.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/app.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/atlas.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/base.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/cache.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/clock.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/compat.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/config.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/context.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/audio/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/audio/audio_avplayer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/audio/audio_ffpyplayer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/audio/audio_gstplayer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/audio/audio_pygame.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/audio/audio_sdl2.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/camera/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/camera/camera_android.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/camera/camera_avfoundation.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/camera/camera_avfoundation_implem.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/camera/camera_avfoundation_implem.m</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/camera/camera_gi.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/camera/camera_opencv.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/_clipboard_ext.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/_clipboard_sdl2.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_android.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_dbusklipper.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_dummy.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_gtk3.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_nspaste.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_pygame.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_sdl2.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_winctypes.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_xclip.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/clipboard/clipboard_xsel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/gl/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/_img_sdl2.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/img_dds.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/img_ffpyplayer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/img_gif.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/img_imageio.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/img_pil.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/img_pygame.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/img_sdl2.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/image/img_tex.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/spelling/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/spelling/spelling_enchant.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/spelling/spelling_osxappkit.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/text/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/text/_text_sdl2.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/text/markup.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/text/text_layout.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/text/text_layout.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/text/text_pil.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/text/text_pygame.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/text/text_sdl2.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/video/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/video/video_ffmpeg.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/video/video_ffpyplayer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/video/video_gstplayer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/video/video_null.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/window/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/window/_window_sdl2.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/window/window_egl_rpi.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/window/window_pygame.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/window/window_sdl2.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/window/window_x11.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/window/window_x11_core.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/core/window/window_x11_keytab.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/fonts/DejaVuSans.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/fonts/Roboto-Bold.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/fonts/Roboto-BoldItalic.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/fonts/Roboto-Italic.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/fonts/Roboto-Regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/fonts/RobotoMono-Regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/glsl/default.fs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/glsl/default.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/glsl/default.vs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/glsl/header.fs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/glsl/header.vs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/images/background.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/images/cursor.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/images/defaultshape.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/images/defaulttheme-0.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/images/defaulttheme.atlas</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/images/image-loading.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/images/testpattern.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/keyboards/azerty.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/keyboards/de.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/keyboards/de_CH.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/keyboards/en_US.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/keyboards/fr_CH.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/keyboards/qwerty.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/keyboards/qwertz.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/logo/kivy-icon-128.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/logo/kivy-icon-16.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/logo/kivy-icon-24.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/logo/kivy-icon-256.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/logo/kivy-icon-32.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/logo/kivy-icon-48.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/logo/kivy-icon-512.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/logo/kivy-icon-64.ico</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/logo/kivy-icon-64.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/settings_kivy.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/data/style.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/deps/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/effects/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/effects/dampedscroll.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/effects/kinetic.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/effects/opacityscroll.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/effects/scroll.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/event.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/extras/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/extras/highlight.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/factory.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/factory_registers.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/garden/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/geometry.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/gesture.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/buffer.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/buffer.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/cgl.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/cgl.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/cgl_backend/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/cgl_backend/cgl_debug.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/cgl_backend/cgl_gl.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/cgl_backend/cgl_glew.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/cgl_backend/cgl_mock.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/cgl_backend/cgl_sdl2.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/common.pxi</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/compiler.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/compiler.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/context.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/context.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/context_instructions.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/context_instructions.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/fbo.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/fbo.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/gl_debug_logger.pxi</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/gl_instructions.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/img_tools.pxi</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/instructions.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/instructions.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/memory.pxi</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/opcodes.pxi</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/opengl.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/opengl_utils.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/opengl_utils.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/opengl_utils_def.pxi</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/scissor_instructions.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/shader.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/shader.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/stencil_instructions.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/stencil_instructions.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/svg.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/svg.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/tesselator.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/tesselator.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/texture.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/texture.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/transformation.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/transformation.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/vbo.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/vbo.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/vertex.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/vertex.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/vertex_instructions.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/vertex_instructions.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/graphics/vertex_instructions_line.pxi</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/include/common_subset.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/include/gl2platform.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/include/gl_redirect.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/include/khrplatform.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/factory.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/motionevent.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/postproc/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/postproc/calibration.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/postproc/dejitter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/postproc/doubletap.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/postproc/ignorelist.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/postproc/retaintouch.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/postproc/tripletap.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/provider.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/androidjoystick.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/hidinput.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/leapfinger.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/linuxwacom.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/mactouch.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/mouse.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/mtdev.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/probesysfs.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/tuio.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/wm_common.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/wm_pen.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/providers/wm_touch.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/recorder.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/input/shape.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/interactive.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lang/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lang/builder.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lang/parser.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/ddsfile.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/gstplayer/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/gstplayer/_gstplayer.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/gstplayer/_gstplayer.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Include/tesselator.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/LICENSE.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/bucketalloc.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/bucketalloc.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/dict.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/dict.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/geom.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/geom.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/mesh.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/mesh.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/priorityq.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/priorityq.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/sweep.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/sweep.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/tess.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/libtess2/Source/tess.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/mtdev.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/osc/OSC.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/osc/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/osc/oscAPI.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/sdl2.pxi</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/vidcore_lite/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/vidcore_lite/bcm.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/vidcore_lite/bcm.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/lib/vidcore_lite/egl.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/loader.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/logger.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/metrics.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/_webdebugger.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/console.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/cursor.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/inspector.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/joycursor.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/keybinding.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/monitor.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/recorder.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/screen.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/touchring.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/modules/webdebugger.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/multistroke.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/network/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/network/urlrequest.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/parser.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/properties.pxd</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/properties.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/resources.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/storage/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/storage/dictstore.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/storage/jsonstore.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/storage/redisstore.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/support.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/common.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/perf_test_textinput.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/sample1.ogg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_adapters.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_animations.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_app.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_audio.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_button.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_clipboard.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_clock.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_doc_gallery.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_fbo_py2py3.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_filechooser.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_filechooser_unicode.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_fonts.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_graphics.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_image.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_invalid_lang.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_issue_1084.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_issue_1091.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_issue_599.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_issue_609.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_issue_883.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_knspace.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_lang.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_lang_complex.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_module_inspector.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_mouse_multitouchsim.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_multistroke.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_properties.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_selection.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_storage.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_actionbar.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_anchorlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_asyncimage.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_boxlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_gridlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_layout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_listview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_relativelayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_scrollview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_slider.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_stacklayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_textinput.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_uix_widget.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_urlrequest.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_utils.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_vector.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_video.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_widget.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/test_widget_walk.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/testkv.kv</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/unicode_files.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/unicode_font.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tests/visual_test_label.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/appveyor/id_rsa.enc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/appveyor/kivy-upload.sh</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/benchmark.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/generate-icons.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/gles_compat/gl2.h</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/gles_compat/subset_gles.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/highlight/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/highlight/kivy-mode.el</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/highlight/kivy.json-tmlanguage</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/highlight/kivy.tmLanguage</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/highlight/kivy.vim</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/kviewer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/packaging/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/packaging/factory.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/packaging/pyinstaller_hooks/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/packaging/pyinstaller_hooks/__main__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/packaging/pyinstaller_hooks/hook-kivy.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/packaging/pyinstaller_hooks/pyi_rth_kivy.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/pep8checker/pep8.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/pep8checker/pep8kivy.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/pep8checker/pre-commit.githook</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/report.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/stub-gl-debug.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/texturecompress.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/action_bar.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/action_group.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/action_group_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/action_group_down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/action_item.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/action_item_down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/action_view.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/audio-volume-high.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/audio-volume-low.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/audio-volume-medium.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/audio-volume-muted.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/bubble.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/bubble_arrow.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/bubble_btn.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/bubble_btn_pressed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/button.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/button_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/button_disabled_pressed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/button_pressed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/checkbox_disabled_off.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/checkbox_disabled_on.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/checkbox_off.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/checkbox_on.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_off.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_on.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/checkbox_radio_off.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/checkbox_radio_on.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/close.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/filechooser_file.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/filechooser_folder.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/filechooser_selected.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/image-missing.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/media-playback-pause.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/media-playback-start.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/media-playback-stop.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/modalview-background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/overflow.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/player-background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/player-play-overlay.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/previous_normal.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/progressbar.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/progressbar_background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/ring.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/selector_left.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/selector_middle.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/selector_right.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/separator.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/slider_cursor.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/slider_cursor_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/sliderh_background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/sliderh_background_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/sliderv_background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/sliderv_background_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/spinner.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/spinner_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/spinner_pressed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter_disabled_down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter_disabled_down_h.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter_disabled_h.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter_down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter_down_h.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter_grip.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter_grip_h.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/splitter_h.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/switch-background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/switch-background_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/switch-button.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/switch-button_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/tab.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/tab_btn.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/tab_btn_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/tab_btn_disabled_pressed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/tab_btn_pressed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/tab_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/textinput.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/textinput_active.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/textinput_disabled.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/textinput_disabled_active.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/tree_closed.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/tree_opened.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/vkeyboard_background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/vkeyboard_disabled_background.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_normal.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/vkeyboard_key_down.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/theming/defaulttheme/vkeyboard_key_normal.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/tools/travis/id_rsa.enc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/abstractview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/accordion.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/actionbar.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/anchorlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/button.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/codenavigation.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/compoundselection.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/cover.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/drag.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/emacs.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/focus.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/knspace.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/behaviors/togglebutton.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/boxlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/bubble.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/button.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/camera.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/carousel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/checkbox.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/codeinput.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/colorpicker.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/dropdown.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/effectwidget.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/filechooser.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/floatlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/gesturesurface.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/gridlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/image.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/label.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/layout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/listview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/modalview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/pagelayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/popup.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/progressbar.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/recycleboxlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/recyclegridlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/recyclelayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/recycleview/__init__.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/recycleview/datamodel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/recycleview/layout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/recycleview/views.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/relativelayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/rst.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/sandbox.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/scatter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/scatterlayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/screenmanager.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/scrollview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/selectableview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/settings.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/slider.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/spinner.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/splitter.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/stacklayout.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/stencilview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/switch.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/tabbedpanel.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/textinput.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/togglebutton.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/treeview.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/video.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/videoplayer.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/vkeyboard.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/uix/widget.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/utils.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/vector.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/weakmethod.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kivy/weakproxy.pyx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/setup.cfg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/setup.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -1609,8 +427,8 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="PATH" value="/home/dalem/.pyenv/libexec:/home/dalem/.pyenv/plugins/pyenv-doctor/bin:/home/dalem/.pyenv/plugins/pyenv-installer/bin:/home/dalem/.pyenv/plugins/pyenv-update/bin:/home/dalem/.pyenv/plugins/pyenv-virtualenv/bin:/home/dalem/.pyenv/plugins/python-build/bin:/home/dalem/.pyenv/shims:/home/dalem/.pyenv/bin " />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="/home/dalem/.pyenv/libexec:/home/dalem/.pyenv/plugins/pyenv-doctor/bin:/home/dalem/.pyenv/plugins/pyenv-installer/bin:/home/dalem/.pyenv/plugins/pyenv-update/bin:/home/dalem/.pyenv/plugins/pyenv-virtualenv/bin:/home/dalem/.pyenv/plugins/python-build/bin:/home/dalem/.pyenv/shims:/home/dalem/.pyenv/bin " />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/widgets/recycleview" />
@@ -1619,6 +437,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="kivy" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/widgets/recycleview/basic_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="check_python_interpreter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/widgets/recycleview" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kivy" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/widgets/recycleview/check_python_interpreter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1657,16 +492,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.kcc1" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
       <item index="2" class="java.lang.String" itemvalue="Python.basic_data" />
+      <item index="3" class="java.lang.String" itemvalue="Python.check_python_interpreter" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.basic_data" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
-        <item index="2" class="java.lang.String" itemvalue="Python.kcc1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.check_python_interpreter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kcc1" />
       </list>
     </recent_temporary>
   </component>
@@ -1719,16 +556,24 @@
       <option name="project" value="LOCAL" />
       <updated>1496679905649</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="in sync">
+      <created>1509043312342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1509043312342</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="386" y="27" width="1534" height="667" extended-state="0" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20592193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16559829" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20992367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2956044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2128,21 +973,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infoKivy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/widgets/recycleview/basic_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        <state relative-caret-position="198">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="e#23#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infoKivy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="8" column="66" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
