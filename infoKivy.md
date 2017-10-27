@@ -4,6 +4,16 @@ infoKivy.txt
 A fork of https://github.com/kivy/kivy
 
 # TODO
+Windows PH Library right install per
+    https://keep.google.com/#NOTE/15f5e3a4640.aecc194148ecde0f
+    gets "ModuleNotFoundError: No module named 'kivy._clock'" too.
+
+    terminal
+    pushd C:\Users\Resident.2Y28GZ1-PH\PycharmProjects\kivy\examples\widgets\recycleview
+    C:\Users\Resident.2Y28GZ1-PH\AppData\Local\Programs\Python\Python36\python basic_data.py
+    "ModuleNotFoundError: No module named 'kivy'"
+
+
 Look through examples/widgets/recycleview/basic_data.py to figure out how to implement MVC.
 
 python2 & python3 get the same "No module named 'kivy._clock'"
